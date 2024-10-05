@@ -7,6 +7,8 @@ parent: system
 # system.user
 User management module
 
+Use this module: `require("system.user")`
+
 ## `user.getData(uid: number)`
 Get data for a specific user.
 
