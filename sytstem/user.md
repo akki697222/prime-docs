@@ -7,7 +7,7 @@ parent: system
 # system.user
 User management module
 
-## 'user.getData(uid: number)'
+## `user.getData(uid: number)`
 Get data for a specific user.
 
 ### Parameters
