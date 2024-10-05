@@ -44,4 +44,32 @@ Create a new user
 
 ### Returns
 1. `number`: Created user's id
+   
+## `user.delete(uid: number)`
+delete user
 
+### Parameters
+1. uid: `number` ID of the user to be deleted.
+
+### Returns
+1. `table`|`nil` Returns the deleted user's data only if the deletion was successful.
+
+## `user.group.create(name: string, [gid: number], [permission: string])`
+Create a new group
+
+### Parameters
+1. name: `string` user name.
+2. gid: `number` ID of the group to create
+3. permission: `string` Permissions for the group to be created (in the format rwxrwxrwx)
+
+### Returns
+1. `number`: Created group's id
+   
+## `user.group.delete(gid: number)`
+delete group
+
+### Parameters
+1. gid: `number` ID of the group to be deleted.
+
+### Returns
+1. `table`|`nil` Returns the deleted group's data only if the deletion was successful.
