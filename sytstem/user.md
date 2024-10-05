@@ -15,5 +15,7 @@ Get data for a specific user.
 
 ### Returns
 1. *table* User data
+
 or
+
 1. *nil* If the user does not exist
