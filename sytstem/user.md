@@ -52,7 +52,7 @@ delete user
 1. uid: `number` ID of the user to be deleted.
 
 ### Returns
-1. `table`|`nil` Returns the deleted user's data only if the deletion was successful.
+1. `table`\|`nil` Returns the deleted user's data only if the deletion was successful.
 
 ## `user.group.create(name: string, [gid: number], [permission: string])`
 Create a new group
@@ -72,4 +72,4 @@ delete group
 1. gid: `number` ID of the group to be deleted.
 
 ### Returns
-1. `table`|`nil` Returns the deleted group's data only if the deletion was successful.
+1. `table`\|`nil` Returns the deleted group's data only if the deletion was successful.
