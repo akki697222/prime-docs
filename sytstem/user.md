@@ -11,11 +11,11 @@ User management module
 Get data for a specific user.
 
 ### Parameters
-1. uid: number ID of the user to retrieve.
+1. uid: `number` ID of the user to retrieve.
 
 ### Returns
-1. table: User data
+1. `table`: User data
 
 or
 
-1. nil: If the user does not exist
+1. `nil`: If the user does not exist
