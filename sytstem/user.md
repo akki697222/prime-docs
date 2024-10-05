@@ -75,3 +75,23 @@ delete group
 
 ### Returns
 1. `table` or `nil`: Returns the deleted group's data only if the deletion was successful.
+
+## `user.setCurrent(uid: number)`
+Setting current user.
+
+### Parameters
+1. uid: `number` ID of the user to set.
+
+## `user.getCurrent()`
+
+### Returns
+1. `number`: Current User's ID
+
+## `user.exists(uid: number)`
+Check if user exists
+
+### Parameters
+1. uid: `number` ID of the user to check.
+
+### Returns
+1. `boolean`: whether the user exists
