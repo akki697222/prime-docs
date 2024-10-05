@@ -1,6 +1,6 @@
 ---
 layout: default
-title: API - system
+title: system
 has_children: true
 ---
 # System API
