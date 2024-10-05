@@ -33,7 +33,7 @@ or
 
 1. `nil`: If the group does not exist
 
-## `user.create(name: string, password: string, \[gid: number], \[uid: number])`
+## `user.create(name: string, password: string, [gid: number], [uid: number])`
 Create a new user
 
 ### Parameters
